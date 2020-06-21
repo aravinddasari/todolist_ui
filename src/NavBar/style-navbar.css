@@ -1,0 +1,137 @@
+.navItem {
+    color: black;
+}
+
+.container {
+    width: 100vw;
+    padding-right: 24px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    padding-left: 24px !important;
+}
+
+.navbar-main {
+    border: 1px solid rgba(0,0,0,0.08);
+    background-color: #FFFFFF;
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.vl {
+    background: rgba(10, 10, 10, 0.42);
+    width: 1px;
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quark {	
+    height: 16px;	
+    width: 46px;	
+    color: black;	
+    font-family: "Open Sans";	
+    font-size: 12px;	
+    font-weight: bold;	
+    letter-spacing: 0.6px;	
+    line-height: 16px;
+}
+
+.profile {
+    font-size: 14px;
+    width: fit-content;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    padding: 15px;
+    margin-right: -50px;
+}
+
+.dropdown-toggle {
+    color: white !important;
+}
+
+.brand-class-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand-class-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+
+ .title-oyo {
+    margin-top: 5;
+    font-weight: 1000;
+    color: #FF0000;
+    font-size: 32;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+    background-color: unset !important;
+    border-color: #337ab7;
+}
+
+.nav-right-tab {
+    display: flex;
+    margin-right: 32px;
+    text-align: start;
+    margin-left: auto;
+}
+
+
+.leads-filter-component {
+    height: 50px;
+    margin-left: -5px;
+    width: 18%;
+    margin: 5px;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.selected--flag--option {
+    font-size: 12px !important;
+}
+
+.menu-flags {
+    margin-top: 17px;
+    font-family: sans-serif;
+}
+
+.flag-select img {
+    top: 0 !important;
+    color: black;
+}
+
+.navbar-header {
+    height: 45px;
+}
